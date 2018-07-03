@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario de contacto</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<h2>Dejanos tus datos</h2>
+		<form action="guardar_datos.php" method="post">
+			<fieldset>
+				<legend>Datos personales:</legend>
+				<label>Nombre:</label>
+				<input type="text" name="firstName">
+				<br><br>
+				<label>Apellido:</label>
+				<input type="text" name="lastName">
+				<br><br>
+				<label>Teléfono:</label>
+				<input type="tel" name="userPhone">
+				<br><br>
+				<label>Correo electrónico:</label>
+				<input type="email" name="email" required placeholder="email@correo.com">
+				<br><br>
+				<label>Contraseña:</label>
+				<input type="password" name="password">
+				<br><br>
+				<label>Fecha de nacimiento :</label>
+				<input type="date" name="birth">
+				<br><br>
+				<label>Cantidad:</label>
+				<input type="number" name="quantity">
+				<br><br>
+
+				<label>Género:</label>
+
+				<label>
+					<input type="radio" name="genre" value="F">
+					Femenino
+				</label>
+
+				<label>
+					<input type="radio" name="genre" value="M">
+					Masculino
+				</label>
+
+				<label>
+					<input type="radio" name="genre" value="O" checked>
+					Otro
+				</label>
+
+				<br><br>
+
+				<label>Pasatiempos:</label>
+
+				<label>
+					<input type="checkbox" name="hobbies" value="Leer">
+					Lectura
+				</label>
+
+				<label>
+					<input type="checkbox" name="hobbies" value="Musica">
+					Música
+				</label>
+
+				<label>
+					<input type="checkbox" name="hobbies" value="Deporte">
+					Deporte
+				</label>
+
+				<br><br>
+
+				<label>Comentarios:</label>
+				<br>
+				<textarea name="name"></textarea>
+
+				<br><br>
+
+				<label>Elegí tu país</label>
+				<select name="country">
+					<option value="">Elegí</option>
+					<optgroup label="Sur América">
+						<option value="Arg">Argentina</option>
+						<option value="Bra">Brasil</option>
+						<option value="Col" selected>Colombia</option>
+					</optgroup>
+					<optgroup label="Centro América">
+						<option value="Arg">Panamá</option>
+						<option value="Bra">Brasil</option>
+						<option value="Col">Colombia</option>
+					</optgroup>
+				</select>
+
+				<br><br>
+				<input type="submit" value="¡DALE!">
+			</fieldset>
+		</form>
+	</body>
+</html>

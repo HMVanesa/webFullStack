@@ -1,0 +1,50 @@
+body{
+  background-image: url(../images/bg-2.png);
+}
+.container {
+  width: 960px;
+  padding: 20px;
+  border: solid 1px white;
+  background-color: blue;
+  margin: auto;
+  }
+.encabezado-naranja{
+  width: 960px;
+  background-color: orange;
+  position: fixed;
+  border: solid 2px red;
+}
+.logo {
+  position: absolute;
+}
+
+.main-nav {
+background-color: #EF4C27;
+margin-top: :25 px;
+padding-left: 120 px;
+}
+.main-nav a {
+color:#ffffff;
+text-decoration:none;
+front-size: 18 px;
+padding: 20 px 10 px;
+display: inline-block;
+}
+
+
+
+  .left1, .intermedio1, .right1, .left2, .intermedio2, .right2 {
+    width: 300px;
+    margin: 10px;
+  }
+.intermedio1 {
+
+
+}
+.right1 {
+
+
+}
+.left2{
+
+}

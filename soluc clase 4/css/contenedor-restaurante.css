@@ -1,0 +1,41 @@
+.encabezado{
+  width: 960px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+.entradas{
+  width: 960px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: orange;
+  margin: 20px auto;
+}
+.postres{
+  width: 960px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: green;
+  margin: 20px auto 20px auto;
+}
+
+
+.galeria-de-imagenes{
+  width: 960px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer{
+  width: 960px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

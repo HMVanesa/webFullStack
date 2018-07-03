@@ -1,0 +1,58 @@
+body::after{
+	content: 'Saludos';
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.lista-especial{
+	list-style: none;
+	padding: 0 0 0 25px;
+}
+.lista-especial li::before{
+	content: url(../images/icon-star.png);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.lista-especial li::after{
+	content: ' - en stock';
+	display: inline-block;
+	vertical-align: middle;
+	color: green;
+	font-style: italic;
+}
+
+.container{
+	max-width: 960px;
+	margin: auto;
+	border: solid 2px red;
+	position: relative;
+}
+
+.container img{
+	position: absolute;
+	left: -50px;
+	bottom: -50px;
+	width: 100px;
+}
+
+.container::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.box01{
+	width: 360px;
+	height: 200px;
+	float: left;
+	background-color: #d2c51c;
+}
+
+.box02{
+	width: 600px;
+	height: 200px;
+	float: left;
+	background-color: #36d21c;
+}

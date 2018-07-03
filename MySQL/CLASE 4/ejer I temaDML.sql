@@ -1,0 +1,4 @@
+SET SQL_SAFE_UPDATES=0;
+UPDATE movies
+SET awards=0 
+WHERE awards=NULL;

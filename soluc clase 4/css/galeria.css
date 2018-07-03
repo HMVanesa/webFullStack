@@ -1,0 +1,46 @@
+.contenedor-principal{
+    width: 960px;
+    padding: 20px;
+    background-color: blue;
+    border: solid 5px;
+    margin: auto;
+    box-sizing: border-box;
+    }
+
+.a{
+
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: yellow;
+  margin: 20px auto 20px auto;
+}
+
+.b{
+  width: 300px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: green;
+  margin: 20px 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+.c{
+  width: 600px;
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: blue;
+  margin: 20px auto 20px auto;
+  float: right;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.d{
+
+  padding: 30px;
+  border: dotted 5px black;
+  background-color: yellow;
+  margin: 20px 0;
+  clear: both;
+}

@@ -1,0 +1,4 @@
+SET SQL_SAFE_UPDATES=0;
+UPDATE genres
+SET active = 1
+WHERE ranking  BETWEEN 1 AND 5;

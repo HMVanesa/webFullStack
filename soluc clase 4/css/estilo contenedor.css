@@ -1,0 +1,46 @@
+.container {
+  width: 960px;
+  padding: 20px;
+  border: solid 1px white;
+  background-color: light blue;
+  }
+.Encabezado Naranja{
+  width: 960px;
+  background-color: orange;
+  position: fixed;
+  border: solid 2 px red;
+}
+.logo {
+  position: absolute;
+}
+
+.main-nav {
+background-color: #EF4C27;
+margin-top: :25 px;
+padding-left: 120 px;
+}
+.main-nav a {
+color:#ffffff;
+text-decoration:none;
+front-size: 18 px;
+padding: 20 px 10 px;
+display: inline-block;  
+}
+
+
+
+  .left 1, .intermedio 1, .right 1, .left 2, .intermedio 2, .right 2 {
+    width: 300px;
+    margin: 10px;
+  }
+.intermedio 1 {
+
+
+}
+.right 1 {
+
+
+}
+.left 2{
+
+}
